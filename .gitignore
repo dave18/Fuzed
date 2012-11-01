@@ -1,11 +1,11 @@
-./built/Fuzed
-./built/Fuzed-db
-./obj-db
-./obj-rel
-./build/libSDL-1.2.so.0.11.3
-./built/Fuzed.sh
-./eglport.cpp
-./eglport.h
+build/Fuzed
+build/Fuzed-db
+obj-db
+obj-rel
+build/libSDL-1.2.so.0.11.3
+build/Fuzed.sh
+eglport.cpp
+eglport.h
 
 
 
