@@ -1,0 +1,530 @@
+# depslib dependency file v1.0
+1337960400 source:/media/mmcblk0p1/singstar/Singstar.cpp
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<GLES/gl.h>
+	"eglport.h"
+	<X11/Xlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_thread.h>
+	<stdio.h>
+	<new>
+	<sys/types.h>
+	<sys/stat.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<dirent.h>
+	"FFTRealFixLen.h"
+	"bass.h"
+	"Singstar.h"
+	<sys/stat.h>
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+
+1186853350 /media/mmcblk0p1/singstar/portaudio.h
+
+1129584588 /media/mmcblk0p1/singstar/FFTRealFixLen.h
+	"Array.h"
+	"DynArray.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealFixLen.hpp"
+
+1129463858 /media/mmcblk0p1/singstar/Array.h
+	"Array.hpp"
+
+1129474316 /media/mmcblk0p1/singstar/Array.hpp
+	<cassert>
+
+1129463866 /media/mmcblk0p1/singstar/DynArray.h
+	"DynArray.hpp"
+
+1129474328 /media/mmcblk0p1/singstar/DynArray.hpp
+	<cassert>
+
+1129586176 /media/mmcblk0p1/singstar/FFTRealFixLenParam.h
+
+1129463894 /media/mmcblk0p1/singstar/OscSinCos.h
+	"def.h"
+	"OscSinCos.hpp"
+
+1129463864 /media/mmcblk0p1/singstar/def.h
+
+1129474454 /media/mmcblk0p1/singstar/OscSinCos.hpp
+	<cmath>
+
+1129463872 /media/mmcblk0p1/singstar/FFTRealFixLen.hpp
+	"def.h"
+	"FFTRealPassDirect.h"
+	"FFTRealPassInverse.h"
+	"FFTRealSelect.h"
+	<cassert>
+	<cmath>
+
+1129463876 /media/mmcblk0p1/singstar/FFTRealPassDirect.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassDirect.hpp"
+
+1129474552 /media/mmcblk0p1/singstar/FFTRealPassDirect.hpp
+	"FFTRealUseTrigo.h"
+
+1129463888 /media/mmcblk0p1/singstar/FFTRealUseTrigo.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealUseTrigo.hpp"
+
+1129463892 /media/mmcblk0p1/singstar/FFTRealUseTrigo.hpp
+	"OscSinCos.h"
+
+1129463878 /media/mmcblk0p1/singstar/FFTRealPassInverse.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassInverse.hpp"
+
+1129463880 /media/mmcblk0p1/singstar/FFTRealPassInverse.hpp
+	"FFTRealUseTrigo.h"
+
+1129463880 /media/mmcblk0p1/singstar/FFTRealSelect.h
+	"def.h"
+	"FFTRealSelect.hpp"
+
+1129463882 /media/mmcblk0p1/singstar/FFTRealSelect.hpp
+
+1276779450 /media/mmcblk0p1/singstar/bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1337167397 /media/mmcblk0p1/singstar/Singstar.h
+
+1337019733 source:/media/mmcblk0p1/singstar/eglport.cpp
+	"eglport.h"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	"SDL/SDL_syswm.h"
+	"SDL/SDL.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/fb.h>
+
+1337021951 /media/mmcblk0p1/singstar/eglport.h
+	<string>
+	<stdlib.h>
+	<stdint.h>
+	"EGL/egl.h"
+
+1337019733 source:/media/mmcblk1p1/Pandora-Star/eglport.cpp
+	"eglport.h"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	"SDL/SDL_syswm.h"
+	"SDL/SDL.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/fb.h>
+
+1337021951 /media/mmcblk1p1/Pandora-Star/eglport.h
+	<string>
+	<stdlib.h>
+	<stdint.h>
+	"EGL/egl.h"
+
+1337019733 source:/media/mmcblk0p1/Pandora-Star/eglport.cpp
+	"eglport.h"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	"SDL/SDL_syswm.h"
+	"SDL/SDL.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/fb.h>
+
+1337021951 /media/mmcblk0p1/Pandora-Star/eglport.h
+	<string>
+	<stdlib.h>
+	<stdint.h>
+	"EGL/egl.h"
+
+1338746863 source:/media/mmcblk0p1/Pandora-Star/Singstar.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_thread.h>
+	<GLES/gl.h>
+	"eglport.h"
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<stdio.h>
+	<new>
+	<sys/types.h>
+	<sys/stat.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<dirent.h>
+	"portaudio.h"
+	"FFTRealFixLen.h"
+	"bass.h"
+	"Singstar.h"
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+
+1186853350 /media/mmcblk0p1/Pandora-Star/portaudio.h
+
+1129584588 /media/mmcblk0p1/Pandora-Star/FFTRealFixLen.h
+	"Array.h"
+	"DynArray.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealFixLen.hpp"
+
+1129463858 /media/mmcblk0p1/Pandora-Star/Array.h
+	"Array.hpp"
+
+1129474316 /media/mmcblk0p1/Pandora-Star/Array.hpp
+	<cassert>
+
+1129463866 /media/mmcblk0p1/Pandora-Star/DynArray.h
+	"DynArray.hpp"
+
+1129474328 /media/mmcblk0p1/Pandora-Star/DynArray.hpp
+	<cassert>
+
+1129586176 /media/mmcblk0p1/Pandora-Star/FFTRealFixLenParam.h
+
+1129463894 /media/mmcblk0p1/Pandora-Star/OscSinCos.h
+	"def.h"
+	"OscSinCos.hpp"
+
+1129463864 /media/mmcblk0p1/Pandora-Star/def.h
+
+1129474454 /media/mmcblk0p1/Pandora-Star/OscSinCos.hpp
+	<cmath>
+
+1129463872 /media/mmcblk0p1/Pandora-Star/FFTRealFixLen.hpp
+	"def.h"
+	"FFTRealPassDirect.h"
+	"FFTRealPassInverse.h"
+	"FFTRealSelect.h"
+	<cassert>
+	<cmath>
+
+1129463876 /media/mmcblk0p1/Pandora-Star/FFTRealPassDirect.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassDirect.hpp"
+
+1129474552 /media/mmcblk0p1/Pandora-Star/FFTRealPassDirect.hpp
+	"FFTRealUseTrigo.h"
+
+1129463888 /media/mmcblk0p1/Pandora-Star/FFTRealUseTrigo.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealUseTrigo.hpp"
+
+1129463892 /media/mmcblk0p1/Pandora-Star/FFTRealUseTrigo.hpp
+	"OscSinCos.h"
+
+1129463878 /media/mmcblk0p1/Pandora-Star/FFTRealPassInverse.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassInverse.hpp"
+
+1129463880 /media/mmcblk0p1/Pandora-Star/FFTRealPassInverse.hpp
+	"FFTRealUseTrigo.h"
+
+1129463880 /media/mmcblk0p1/Pandora-Star/FFTRealSelect.h
+	"def.h"
+	"FFTRealSelect.hpp"
+
+1129463882 /media/mmcblk0p1/Pandora-Star/FFTRealSelect.hpp
+
+1276779450 /media/mmcblk0p1/Pandora-Star/bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1337167397 /media/mmcblk0p1/Pandora-Star/Singstar.h
+
+1337019733 source:/home/david/fuzed/eglport.cpp
+	"eglport.h"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	"SDL/SDL_syswm.h"
+	"SDL/SDL.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/fb.h>
+
+1337021951 /home/david/fuzed/eglport.h
+	<string>
+	<stdlib.h>
+	<stdint.h>
+	"EGL/egl.h"
+
+1351800664 source:/home/david/fuzed/fuzed.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_thread.h>
+	<SDL/SDL_mixer.h>
+	<stdio.h>
+	<stdlib.h>
+	<new>
+	"fuzed.h"
+	"level.h"
+	"player.h"
+	"collision.h"
+	"wheelie.h"
+	"grog.h"
+	"slinky.h"
+	"DestructTile.h"
+	"bomb.h"
+	"explosion.h"
+	"smoke.h"
+	"mine.h"
+	"reward.h"
+	"dynamite.h"
+	"gem.h"
+	"coin.h"
+	"pickup.h"
+	"pickedup16.h"
+	"pickedup32.h"
+	"hiscore.h"
+
+1351799542 /home/david/fuzed/fuzed.h
+
+1351797445 /home/david/fuzed/level.h
+
+1351800664 source:/home/david/fuzed/level.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_mixer.h>
+	"level.h"
+	"collision.h"
+	"wheelie.h"
+	"DestructTile.h"
+	"bomb.h"
+	"explosion.h"
+	"smoke.h"
+	"mine.h"
+	"dynamite.h"
+	"reward.h"
+	"grog.h"
+	"slinky.h"
+	"player.h"
+	"gem.h"
+	"coin.h"
+	"pickup.h"
+	"pickedup16.h"
+	"pickedup32.h"
+	"hiscore.h"
+
+1351799472 /home/david/fuzed/player.h
+
+1351800771 source:/home/david/fuzed/player.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_mixer.h>
+	"player.h"
+	"collision.h"
+	"bomb.h"
+	"mine.h"
+	"dynamite.h"
+	"explosion.h"
+	"level.h"
+	"gem.h"
+	"coin.h"
+	"pickup.h"
+	"reward.h"
+	"pickedup16.h"
+	"pickedup32.h"
+	"hiscore.h"
+
+1351765820 /home/david/fuzed/wheelie.h
+
+1351776684 source:/home/david/fuzed/wheelie.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"wheelie.h"
+	"collision.h"
+	"bomb.h"
+	"mine.h"
+	"explosion.h"
+	"reward.h"
+	"player.h"
+
+1351543611 source:/home/david/fuzed/collision.cpp
+	<SDL/SDL.h>
+	"collision.h"
+
+1351543573 /home/david/fuzed/collision.h
+
+1351765182 source:/home/david/fuzed/DestructTile.cpp
+	<SDL/SDL.h>
+	"DestructTile.h"
+	"collision.h"
+
+1351765269 /home/david/fuzed/DestructTile.h
+
+1351772123 source:/home/david/fuzed/bomb.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_mixer.h>
+	"bomb.h"
+	"collision.h"
+	"explosion.h"
+
+1351770580 /home/david/fuzed/bomb.h
+
+1351437002 /home/david/fuzed/explosion.h
+
+1351761589 source:/home/david/fuzed/explosion.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_mixer.h>
+	"explosion.h"
+	"collision.h"
+	"DestructTile.h"
+	"smoke.h"
+
+1351787656 /home/david/fuzed/smoke.h
+
+1351761685 source:/home/david/fuzed/smoke.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"smoke.h"
+	"collision.h"
+
+1351436122 /home/david/fuzed/mine.h
+
+1351761509 source:/home/david/fuzed/mine.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_mixer.h>
+	"mine.h"
+	"collision.h"
+	"explosion.h"
+
+1351436846 /home/david/fuzed/reward.h
+
+1351436866 source:/home/david/fuzed/reward.cpp
+	<SDL/SDL.h>
+	"reward.h"
+
+1351761419 source:/home/david/fuzed/dynamite.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_mixer.h>
+	"dynamite.h"
+	"collision.h"
+	"explosion.h"
+
+1351436193 /home/david/fuzed/dynamite.h
+
+1351765807 /home/david/fuzed/grog.h
+
+1351781796 source:/home/david/fuzed/grog.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"grog.h"
+	"collision.h"
+	"bomb.h"
+	"mine.h"
+	"explosion.h"
+	"reward.h"
+	"player.h"
+
+1351765830 /home/david/fuzed/slinky.h
+
+1351776670 source:/home/david/fuzed/slinky.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"slinky.h"
+	"collision.h"
+	"bomb.h"
+	"mine.h"
+	"explosion.h"
+	"reward.h"
+	"player.h"
+
+1351436522 /home/david/fuzed/gem.h
+
+1351551325 source:/home/david/fuzed/gem.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"collision.h"
+	"gem.h"
+
+1351436660 /home/david/fuzed/pickedup16.h
+
+1351670408 source:/home/david/fuzed/pickedup16.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"pickedup16.h"
+	"collision.h"
+
+1351780703 source:/home/david/fuzed/coin.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"collision.h"
+	"coin.h"
+
+1351436613 /home/david/fuzed/coin.h
+
+1351725334 source:/home/david/fuzed/pickedup32.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"pickedup32.h"
+	"collision.h"
+
+1351436735 /home/david/fuzed/pickedup32.h
+
+1351773006 source:/home/david/fuzed/pickup.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"collision.h"
+	"pickup.h"
+
+1351437030 /home/david/fuzed/pickup.h
+
+1351794824 source:/home/david/fuzed/hiscore.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	"hiscore.h"
+	"collision.h"
+	<string.h>
+
+1351789894 /home/david/fuzed/hiscore.h
+
