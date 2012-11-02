@@ -808,7 +808,6 @@ void Tplayer::Update2(class_struct *is)
 			if (cc)
 			{
                 is->score=is->score+gem.GetValue(cc);
-                //reward.spawn((int)is->x+10,(int)is->y+16,gem.GetValue(cc));
                 reward.spawn(gem.GetX(cc),gem.GetY(cc),gem.GetValue(cc));
                 pickedup16.spawn(gem.GetX(cc),gem.GetY(cc));
                 is->gems=is->gems+1;
@@ -824,7 +823,6 @@ void Tplayer::Update2(class_struct *is)
 			if (cc)
 			{
                 is->score=is->score+coin.GetValue(cc);
-                //reward.spawn((int)is->x+12,(int)is->y+16,coin.GetValue(cc));
                 reward.spawn(coin.GetX(cc),coin.GetY(cc),coin.GetValue(cc));
                 pickedup16.spawn(coin.GetX(cc),coin.GetY(cc));
                 is->coins=is->coins+1;

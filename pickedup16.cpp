@@ -146,6 +146,7 @@ int Tpickedup16::spawn(int x, int y) //Create new pickedup16);
     item_store[b].framecount=0;			//Timer for animation speed
     item_store[b].zx=1;
     item_store[b].zy=1;
+    item_store[b].image=picked_up_16x16;
 
     return item_store[b].id;
     }
