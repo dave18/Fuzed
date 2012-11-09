@@ -368,6 +368,12 @@ void Tgrog::Update2(class_struct *is)
 					int botofcheck=29;
 					if (botofcheck>topofcheck)
 					{
+					    /*SDL_Rect r;
+                        r.x=xgrid*16;
+                        r.y=topofcheck*16;
+                        r.w=16;
+                        r.h=(botofcheck-topofcheck)*16;
+                        SDL_FillRect(screen,&r,SDL_MapRGB(screen->format,255,255,255));*/
                         for (int z=botofcheck;z>=topofcheck;z--)
                         {
 							if (map[3] [xgrid] [z]==8)
@@ -376,19 +382,19 @@ void Tgrog::Update2(class_struct *is)
 							    int morethanone=0;
 							    if (xgrid>0)
 							    {
-                                    if (map[3] [xgrid-1] [z]=8) morethanone+=1;
+                                    if (map[3] [xgrid-1] [z]==8) morethanone+=1;
 							    }
 							    if (xgrid>1)
 							    {
-                                    if (map[3] [xgrid-2] [z]=8) morethanone+=1;
+                                    if (map[3] [xgrid-2] [z]==8) morethanone+=1;
 							    }
 							    if (xgrid<39)
 							    {
-                                    if (map[3] [xgrid+1] [z]=8) morethanone+=1;
+                                    if (map[3] [xgrid+1] [z]==8) morethanone+=1;
 							    }
 							    if (xgrid<38)
 							    {
-                                    if (map[3] [xgrid+2] [z]=8) morethanone+=1;
+                                    if (map[3] [xgrid+2] [z]==8) morethanone+=1;
 							    }
 								if (morethanone<2) isplatform=0;
 							}

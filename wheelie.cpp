@@ -321,6 +321,13 @@ void Twheelie::Update2(class_struct *is)
 					if (botofcheck>29) botofcheck=29;
 					if (botofcheck>topofcheck)
 					{
+                        /*SDL_Rect r;
+                        r.x=xgrid*16;
+                        r.y=topofcheck*16;
+                        r.w=16;
+                        r.h=(botofcheck-topofcheck)*16;
+                        SDL_FillRect(screen,&r,SDL_MapRGB(screen->format,255,255,255));*/
+
                         for (int z=topofcheck;z<=botofcheck;z++)
 							if (map[3] [xgrid] [z]==8) isplatform=z;
 

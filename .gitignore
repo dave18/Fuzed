@@ -4,6 +4,10 @@ obj-db
 obj-rel
 build/libSDL-1.2.so.0.11.3
 build/Fuzed.sh
+build/Fuzed.hi
+build/fuzed.pxml
+build/fuzed.png
+pnd.sh
 eglport.cpp
 eglport.h
 
