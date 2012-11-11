@@ -58,7 +58,7 @@ int TDestructTile::create(void)
         }
         slot=item_count-1;
     }
-    item_store[slot].id=slot+1; //+1 for coll detect
+    item_store[slot].id=slot+64; //+1 for coll detect
     return slot;
 }
 
@@ -107,6 +107,23 @@ int TDestructTile::spawn(int tx,int ty,int t)
     else return -1;
 }
 
+void TDestructTile::Update()
+{
+    int z;
+    for (z=0;z<item_count;z++)
+    {
+        if (item_store[z].id>=0)
+        {
+            Update2(&item_store[z]);
+        }
+    }
+}
+
+void TDestructTile::Update2(class_struct *is)
+{
+    CollideImage (tilesBitmap,is->x*16,is->y*16,getTileX(tilesBitmap,is->tile),getTileY(tilesBitmap,is->tile),16,16,0,COL_DESTROY_TILE,is->id);
+}
+
 void TDestructTile::AddToCollisionLayer()
 {
     int z;
@@ -133,8 +150,32 @@ void TDestructTile::Destroy(int id)
                 map[1] [item_store[z].x] [item_store[z].y]=(char)item_store[z].replacewith;
                 if (item_store[z].replaceunder) map[1] [item_store[z].x] [item_store[z].y+1]=(char)item_store[z].replaceunderwith;
 
-                item_store[z].id=-1; //deacivate
+                remove(item_store[z].id); //deacivate
             }
         }
     }
+}
+
+void TDestructTile::ClearList(void)
+{
+    if (item_count>0)
+    {
+        for (int z=0;z<item_count;z++)
+        {
+            remove(item_store[z].id);
+        }
+    }
+}
+
+int TDestructTile::CountList(void)
+{
+    int c=0;
+    if (item_count>0)
+    {
+        for (int z=0;z<item_count;z++)
+        {
+            if (item_store[z].id>=0) c++;
+        }
+    }
+    return c;
 }

@@ -418,7 +418,7 @@ void Tplayer::Update2(class_struct *is)
 				if ((playercontrols[is->id-1].cycledown) && (is->cycledown==0)) cyclepressed=1;
 
 
-//                if (keydata & MY_BUTT_A) ShowCollisionLayer(3);
+                if (keydata & MY_BUTT_A) ShowCollisionLayer(13);
 			//EndIf
 /*
 			if (joymoved==0)

@@ -2,6 +2,7 @@
 #include <SDL/SDL_image.h>
 #include <SDL/SDL_thread.h>
 #include <SDL/SDL_mixer.h>
+#include <SDL/SDL_image.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -1000,6 +1001,11 @@ while (quitgame==0)
 
                 SDL_Flip(screen);
                 keydata=get_key(0);
+/*                if (keydata & MY_BUTT_A)
+                {
+                    SDL_SaveBMP(screen,"screenshot.bmp");
+                    printf("screenshot saved\n");
+                }*/
 		    }
 		    if ((player.CountList()>0) && (QDOWN==0))
 		    {

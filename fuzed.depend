@@ -278,11 +278,12 @@
 	<stdint.h>
 	"EGL/egl.h"
 
-1351801423 source:/home/david/fuzed/fuzed.cpp
+1352547787 source:/home/david/fuzed/fuzed.cpp
 	<SDL/SDL.h>
 	<SDL/SDL_image.h>
 	<SDL/SDL_thread.h>
 	<SDL/SDL_mixer.h>
+	<SDL/SDL_image.h>
 	<stdio.h>
 	<stdlib.h>
 	<new>
@@ -311,7 +312,7 @@
 
 1351797445 /home/david/fuzed/level.h
 
-1352483528 source:/home/david/fuzed/level.cpp
+1352544422 source:/home/david/fuzed/level.cpp
 	<SDL/SDL.h>
 	<SDL/SDL_image.h>
 	<SDL/SDL_rotozoom.h>
@@ -338,7 +339,7 @@
 
 1351799472 /home/david/fuzed/player.h
 
-1352481844 source:/home/david/fuzed/player.cpp
+1352547698 source:/home/david/fuzed/player.cpp
 	<SDL/SDL.h>
 	<SDL/SDL_image.h>
 	<SDL/SDL_rotozoom.h>
@@ -383,7 +384,7 @@
 	"DestructTile.h"
 	"collision.h"
 
-1351765269 /home/david/fuzed/DestructTile.h
+1352550947 /home/david/fuzed/DestructTile.h
 
 1351772123 source:/home/david/fuzed/bomb.cpp
 	<SDL/SDL.h>

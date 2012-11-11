@@ -273,6 +273,7 @@ void Tlevel::Create(int l)
 			}
 	}
 
+        DestructTile.ClearList();
         ResetCollisions(0);
 		offset=8+(id * LEVEL_SIZE)+3832;		//calculate offset for tile boundary
 		i=0;
@@ -395,6 +396,16 @@ void Tlevel::ScrollToNext(void)
 				trans_scroll=0;
 			}
 		}
+
+   /*     ResetCollisions(COL_DESTROY_TILE);
+		for (y=0;y<=29;y++)
+		{
+			for (x=0;x<=39;x++)
+			{
+				if ((map[3] [x] [y]) & 192) DestructTile.spawn(x,y,map[1] [x] [y]);
+			}
+		}
+*/
 }
 
 
@@ -582,7 +593,7 @@ void Tlevel::Play()
 		mainscroll2=mainscroll2+2;
 		if (mainscroll2>0) mainscroll2=-478;
 
-		ResetCollisions(0x1FF8);  //need to limit to appropriate layers
+		ResetCollisions(0x3FF8);  //need to limit to appropriate layers
 		//ResetCollisions(COL_BOMB);
 
 			for (y=0;y<=29;y++)
@@ -593,7 +604,7 @@ void Tlevel::Play()
                 if ((map[3] [x] [y]) & 96) CollideImage (tilesBitmap,x*16,y*16,getTileX(tilesBitmap,map[1] [x] [y]),getTileY(tilesBitmap,map[1] [x] [y]),16,16,0,COL_ENEMY,255);
 				}
 
-
+        DestructTile.Update();
 
 
 		/*SetColor 255,255,255

@@ -30,6 +30,7 @@ class TDestructTile
         int item_count;
         int getTileX(SDL_Surface* imageSurface, int t);
         int getTileY(SDL_Surface* imageSurface, int t);
+        void Update2(class_struct* is);
 
 
     public:
@@ -37,6 +38,9 @@ class TDestructTile
     int spawn(int x,int y,int tile);
     void AddToCollisionLayer(void);
     void Destroy(int id);
+    int CountList(void);
+    void ClearList(void);
+    void Update(void);
 
 };
 
